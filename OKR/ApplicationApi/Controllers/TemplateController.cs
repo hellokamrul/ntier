@@ -15,10 +15,10 @@ namespace ApplicationApi.Controllers
             _temp = temp;
         }
         [HttpGet]
-        public IActionResult MyWorks(int uid)
+        public IActionResult MyWorks(int id)
         {
 
-            return Ok(_temp.GetTodayTaskByUid(uid));
+            return Ok(_temp.GetTodayTaskByUid(id));
         }
     }
 }

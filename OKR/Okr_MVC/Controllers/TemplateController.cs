@@ -1,20 +1,32 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using DAL.Models;
+using Microsoft.AspNetCore.Mvc;
+using Newtonsoft.Json;
 using System.Net.Http;
 namespace Okr_MVC.Controllers
 {
     public class TemplateController : Controller
     {
-        private readonly HttpClient _httpClient;
-        public TemplateController(HttpClient httpClient)
+        
+        private readonly HttpClient _client;
+        public TemplateController(HttpClient client)
         {
-            _httpClient = httpClient;
+            _client = client;
+            _client.BaseAddress = new Uri("https://localhost:7215/api");
         }
         public IActionResult Index()
         {
-            //var response = _httpClient.GetAsync("https://localhost:7215/api/MyWorks");
-            ////if(response.isSuccessStatus)
-            //var data = await _httpClient
             return View();
+        }
+            public IActionResult TaskList(int id)
+        {
+            List<UserTaskAssign> taskList = new List<UserTaskAssign>();
+            var response = _client.GetAsync(_client.BaseAddress+ "/Template/MyWorks/"+id).Result;
+            if(response.IsSuccessStatusCode)
+            {
+                var data = response.Content.ReadAsStringAsync().Result;
+                taskList = JsonConvert.DeserializeObject<List<UserTaskAssign>>(data);
+            }
+            return View(taskList);
         }
     }
 }

@@ -1,0 +1,9 @@
+﻿@model List<DAL.Models.UserTaskAssign>;
+
+@foreach (var i in Model)
+    {
+    <h1>@i.Tasks.Name</h1>
+    <h1>@i.Tasks.DueDate</h1>
+    <h1>@i.Tasks.EstimatedDate</h1>
+    <h1>@i.Tasks.UserTasks</h1>
+    }
