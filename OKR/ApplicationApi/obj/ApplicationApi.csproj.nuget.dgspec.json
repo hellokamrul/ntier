@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "G:\\N-Tier_OKR\\OKR\\ApplicationApi\\ApplicationApi.csproj": {}
+    "D:\\GTR\\N-tier\\OKR\\ApplicationApi\\ApplicationApi.csproj": {}
   },
   "projects": {
-    "G:\\N-Tier_OKR\\OKR\\ApplicationApi\\ApplicationApi.csproj": {
+    "D:\\GTR\\N-tier\\OKR\\ApplicationApi\\ApplicationApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "G:\\N-Tier_OKR\\OKR\\ApplicationApi\\ApplicationApi.csproj",
+        "projectUniqueName": "D:\\GTR\\N-tier\\OKR\\ApplicationApi\\ApplicationApi.csproj",
         "projectName": "ApplicationApi",
-        "projectPath": "G:\\N-Tier_OKR\\OKR\\ApplicationApi\\ApplicationApi.csproj",
-        "packagesPath": "C:\\Users\\SHAFIN\\.nuget\\packages\\",
-        "outputPath": "G:\\N-Tier_OKR\\OKR\\ApplicationApi\\obj\\",
+        "projectPath": "D:\\GTR\\N-tier\\OKR\\ApplicationApi\\ApplicationApi.csproj",
+        "packagesPath": "C:\\Users\\Elite-Gadget\\.nuget\\packages\\",
+        "outputPath": "D:\\GTR\\N-tier\\OKR\\ApplicationApi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\SHAFIN\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Elite-Gadget\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -28,8 +28,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "G:\\N-Tier_OKR\\OKR\\BLL\\BLL.csproj": {
-                "projectPath": "G:\\N-Tier_OKR\\OKR\\BLL\\BLL.csproj"
+              "D:\\GTR\\N-tier\\OKR\\BLL\\BLL.csproj": {
+                "projectPath": "D:\\GTR\\N-tier\\OKR\\BLL\\BLL.csproj"
               }
             }
           }
@@ -88,21 +88,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "G:\\N-Tier_OKR\\OKR\\BLL\\BLL.csproj": {
+    "D:\\GTR\\N-tier\\OKR\\BLL\\BLL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "G:\\N-Tier_OKR\\OKR\\BLL\\BLL.csproj",
+        "projectUniqueName": "D:\\GTR\\N-tier\\OKR\\BLL\\BLL.csproj",
         "projectName": "BLL",
-        "projectPath": "G:\\N-Tier_OKR\\OKR\\BLL\\BLL.csproj",
-        "packagesPath": "C:\\Users\\SHAFIN\\.nuget\\packages\\",
-        "outputPath": "G:\\N-Tier_OKR\\OKR\\BLL\\obj\\",
+        "projectPath": "D:\\GTR\\N-tier\\OKR\\BLL\\BLL.csproj",
+        "packagesPath": "C:\\Users\\Elite-Gadget\\.nuget\\packages\\",
+        "outputPath": "D:\\GTR\\N-tier\\OKR\\BLL\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\SHAFIN\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Elite-Gadget\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -116,8 +116,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "G:\\N-Tier_OKR\\OKR\\DAL\\DAL_test.csproj": {
-                "projectPath": "G:\\N-Tier_OKR\\OKR\\DAL\\DAL_test.csproj"
+              "D:\\GTR\\N-tier\\OKR\\DAL\\DAL.csproj": {
+                "projectPath": "D:\\GTR\\N-tier\\OKR\\DAL\\DAL.csproj"
               }
             }
           }
@@ -157,21 +157,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "G:\\N-Tier_OKR\\OKR\\DAL\\DAL_test.csproj": {
+    "D:\\GTR\\N-tier\\OKR\\DAL\\DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "G:\\N-Tier_OKR\\OKR\\DAL\\DAL_test.csproj",
-        "projectName": "DAL_test",
-        "projectPath": "G:\\N-Tier_OKR\\OKR\\DAL\\DAL_test.csproj",
-        "packagesPath": "C:\\Users\\SHAFIN\\.nuget\\packages\\",
-        "outputPath": "G:\\N-Tier_OKR\\OKR\\DAL\\obj\\",
+        "projectUniqueName": "D:\\GTR\\N-tier\\OKR\\DAL\\DAL.csproj",
+        "projectName": "DAL",
+        "projectPath": "D:\\GTR\\N-tier\\OKR\\DAL\\DAL.csproj",
+        "packagesPath": "C:\\Users\\Elite-Gadget\\.nuget\\packages\\",
+        "outputPath": "D:\\GTR\\N-tier\\OKR\\DAL\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\SHAFIN\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Elite-Gadget\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -234,7 +234,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     }

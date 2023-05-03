@@ -327,7 +327,7 @@
           "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
-      "DAL_test/1.0.0": {
+      "DAL/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
@@ -335,10 +335,10 @@
           "Npgsql.EntityFrameworkCore.PostgreSQL": "7.0.4"
         },
         "compile": {
-          "bin/placeholder/DAL_test.dll": {}
+          "bin/placeholder/DAL.dll": {}
         },
         "runtime": {
-          "bin/placeholder/DAL_test.dll": {}
+          "bin/placeholder/DAL.dll": {}
         }
       }
     }
@@ -860,33 +860,33 @@
         "useSharedDesignerContext.txt"
       ]
     },
-    "DAL_test/1.0.0": {
+    "DAL/1.0.0": {
       "type": "project",
-      "path": "../DAL/DAL_test.csproj",
-      "msbuildProject": "../DAL/DAL_test.csproj"
+      "path": "../DAL/DAL.csproj",
+      "msbuildProject": "../DAL/DAL.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
       "AutoMapper >= 12.0.1",
       "AutoMapper.Extensions.Microsoft.DependencyInjection >= 12.0.1",
-      "DAL_test >= 1.0.0"
+      "DAL >= 1.0.0"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\SHAFIN\\.nuget\\packages\\": {}
+    "C:\\Users\\Elite-Gadget\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "G:\\N-Tier_OKR\\OKR\\BLL\\BLL.csproj",
+      "projectUniqueName": "D:\\GTR\\N-tier\\OKR\\BLL\\BLL.csproj",
       "projectName": "BLL",
-      "projectPath": "G:\\N-Tier_OKR\\OKR\\BLL\\BLL.csproj",
-      "packagesPath": "C:\\Users\\SHAFIN\\.nuget\\packages\\",
-      "outputPath": "G:\\N-Tier_OKR\\OKR\\BLL\\obj\\",
+      "projectPath": "D:\\GTR\\N-tier\\OKR\\BLL\\BLL.csproj",
+      "packagesPath": "C:\\Users\\Elite-Gadget\\.nuget\\packages\\",
+      "outputPath": "D:\\GTR\\N-tier\\OKR\\BLL\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\SHAFIN\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Elite-Gadget\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -900,8 +900,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "G:\\N-Tier_OKR\\OKR\\DAL\\DAL_test.csproj": {
-              "projectPath": "G:\\N-Tier_OKR\\OKR\\DAL\\DAL_test.csproj"
+            "D:\\GTR\\N-tier\\OKR\\DAL\\DAL.csproj": {
+              "projectPath": "D:\\GTR\\N-tier\\OKR\\DAL\\DAL.csproj"
             }
           }
         }
@@ -941,7 +941,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
       }
     }
   }

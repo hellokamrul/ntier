@@ -1,6 +1,6 @@
 ﻿using AutoMapper;
 using BLL.DTO;
-using DAL;
+using DAL_test;
 using DAL.Models;
 using System;
 using System.Collections.Generic;
@@ -20,18 +20,18 @@ namespace BLL.Services
         //    _mapper = mapper;
         //}
 
-        public static bool Add(UserDTO userDTO)
-        {
-            var config = new MapperConfiguration(cfg =>
-            {
-                cfg.CreateMap<UserDTO, User>();
-                cfg.CreateMap<User, UserDTO>();
-            });
-            var mapper = new Mapper(config);
-            var dbuser = mapper.Map<User>(userDTO);
-            var rt = DataAccessFactory.UserDataAccess().Add(dbuser);
-            return rt;
-        }
+        //public static bool Add(UserDTO userDTO)
+        //{
+        //    var config = new MapperConfiguration(cfg =>
+        //    {
+        //        cfg.CreateMap<UserDTO, User>();
+        //        cfg.CreateMap<User, UserDTO>();
+        //    });
+        //    var mapper = new Mapper(config);
+        //    //var dbuser = mapper.Map<User>(userDTO);
+        //    //var rt = DataAccessFactory.UserDataAccess().Add(dbuser);
+        //    //return rt;
+        //}
 
         //public string CreateCompany(UserDTO userDTO)
         //{

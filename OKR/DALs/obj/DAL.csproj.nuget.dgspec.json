@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "G:\\N-Tier_OKR\\OKR\\DALs\\DAL.csproj": {}
+    "D:\\GTR\\N-tier\\OKR\\DALs\\DAL.csproj": {}
   },
   "projects": {
-    "G:\\N-Tier_OKR\\OKR\\DALs\\DAL.csproj": {
+    "D:\\GTR\\N-tier\\OKR\\DALs\\DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "G:\\N-Tier_OKR\\OKR\\DALs\\DAL.csproj",
+        "projectUniqueName": "D:\\GTR\\N-tier\\OKR\\DALs\\DAL.csproj",
         "projectName": "DAL",
-        "projectPath": "G:\\N-Tier_OKR\\OKR\\DALs\\DAL.csproj",
-        "packagesPath": "C:\\Users\\SHAFIN\\.nuget\\packages\\",
-        "outputPath": "G:\\N-Tier_OKR\\OKR\\DALs\\obj\\",
+        "projectPath": "D:\\GTR\\N-tier\\OKR\\DALs\\DAL.csproj",
+        "packagesPath": "C:\\Users\\Elite-Gadget\\.nuget\\packages\\",
+        "outputPath": "D:\\GTR\\N-tier\\OKR\\DALs\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\SHAFIN\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Elite-Gadget\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -84,7 +84,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     }

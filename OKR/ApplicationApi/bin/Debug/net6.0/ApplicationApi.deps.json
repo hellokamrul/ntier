@@ -356,8 +356,7 @@
       "DAL/1.0.0": {
         "dependencies": {
           "Microsoft.EntityFrameworkCore": "7.0.5",
-          "Npgsql.EntityFrameworkCore.PostgreSQL": "7.0.4",
-          "Swashbuckle.AspNetCore": "6.2.3"
+          "Npgsql.EntityFrameworkCore.PostgreSQL": "7.0.4"
         },
         "runtime": {
           "DAL.dll": {}

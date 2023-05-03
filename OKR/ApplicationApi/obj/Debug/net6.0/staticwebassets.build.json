@@ -1,23 +1,11 @@
 {
   "Version": 1,
-  "Hash": "GTpKBd2Sr/RvvdoEpc3JtUWnOLbnBOl/NhTo/wAKdA8=",
+  "Hash": "U81Z6nQtKIzZyXpckmyxe7FOYsguY/huQRSXb74ZqYI=",
   "Source": "ApplicationApi",
   "BasePath": "_content/ApplicationApi",
   "Mode": "Default",
   "ManifestType": "Build",
-  "ReferencedProjectsConfiguration": [
-    {
-      "Identity": "G:\\N-Tier_OKR\\OKR\\DALs\\DAL.csproj",
-      "Version": 2,
-      "Source": "DAL",
-      "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",
-      "AdditionalPublishProperties": "Configuration=Debug;Platform=AnyCPU",
-      "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework",
-      "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
-      "AdditionalBuildProperties": "Configuration=Debug;Platform=AnyCPU",
-      "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework"
-    }
-  ],
+  "ReferencedProjectsConfiguration": [],
   "DiscoveryPatterns": [],
   "Assets": []
 }

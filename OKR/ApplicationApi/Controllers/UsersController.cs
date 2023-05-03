@@ -17,12 +17,12 @@ namespace ApplicationApi.Controllers
         //    var data = UserServices.Add(grp);
         //    return Request.CreateResponse(HttpStatusCode.OK, data);
         //}
-        [HttpPost]
-        public IActionResult CreateUser([FromBody] UserDTO user)
-        {
-            var data = UserServices.Add(user);
-            return Ok(data);
-        }
+        //[HttpPost]
+        //public IActionResult CreateUser([FromBody] UserDTO user)
+        //{
+        //    var data = UserServices.Add(user);
+        //    return Ok(data);
+        //}
 
     }
 }

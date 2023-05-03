@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations.Schema;
 
-namespace DAL_test.Models
+namespace DAL.Models
 {
     public class Department
     {

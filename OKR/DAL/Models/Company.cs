@@ -1,7 +1,7 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
 
-namespace DAL_test.Models
+namespace DAL.Models
 {
     public class Company
     {

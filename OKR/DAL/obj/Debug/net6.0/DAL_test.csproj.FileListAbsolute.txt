@@ -12,3 +12,17 @@ G:\N-Tier_OKR\OKR\DAL\obj\Debug\net6.0\refint\DAL_test.dll
 G:\N-Tier_OKR\OKR\DAL\obj\Debug\net6.0\DAL_test.pdb
 G:\N-Tier_OKR\OKR\DAL\obj\Debug\net6.0\DAL_test.genruntimeconfig.cache
 G:\N-Tier_OKR\OKR\DAL\obj\Debug\net6.0\ref\DAL_test.dll
+D:\GTR\N-tier\OKR\DAL\bin\Debug\net6.0\DAL_test.deps.json
+D:\GTR\N-tier\OKR\DAL\bin\Debug\net6.0\DAL_test.runtimeconfig.json
+D:\GTR\N-tier\OKR\DAL\bin\Debug\net6.0\DAL_test.dll
+D:\GTR\N-tier\OKR\DAL\bin\Debug\net6.0\DAL_test.pdb
+D:\GTR\N-tier\OKR\DAL\obj\Debug\net6.0\DAL_test.csproj.AssemblyReference.cache
+D:\GTR\N-tier\OKR\DAL\obj\Debug\net6.0\DAL_test.GeneratedMSBuildEditorConfig.editorconfig
+D:\GTR\N-tier\OKR\DAL\obj\Debug\net6.0\DAL_test.AssemblyInfoInputs.cache
+D:\GTR\N-tier\OKR\DAL\obj\Debug\net6.0\DAL_test.AssemblyInfo.cs
+D:\GTR\N-tier\OKR\DAL\obj\Debug\net6.0\DAL_test.csproj.CoreCompileInputs.cache
+D:\GTR\N-tier\OKR\DAL\obj\Debug\net6.0\DAL_test.dll
+D:\GTR\N-tier\OKR\DAL\obj\Debug\net6.0\refint\DAL_test.dll
+D:\GTR\N-tier\OKR\DAL\obj\Debug\net6.0\DAL_test.pdb
+D:\GTR\N-tier\OKR\DAL\obj\Debug\net6.0\DAL_test.genruntimeconfig.cache
+D:\GTR\N-tier\OKR\DAL\obj\Debug\net6.0\ref\DAL_test.dll

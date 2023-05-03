@@ -1,4 +1,4 @@
-﻿using DAL_test.Models;
+﻿using DAL.Models;
 using Microsoft.EntityFrameworkCore;
 
 namespace DAL.Context
