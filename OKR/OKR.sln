@@ -9,6 +9,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BLL", "BLL\BLL.csproj", "{3
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ApplicationApi", "ApplicationApi\ApplicationApi.csproj", "{9510C93E-4FCE-4A3B-BA54-FF764F7C2E7E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Okr_MVC", "Okr_MVC\Okr_MVC.csproj", "{9832C0F3-2255-4D01-83B1-C9AD1FD55CCD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{9510C93E-4FCE-4A3B-BA54-FF764F7C2E7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9510C93E-4FCE-4A3B-BA54-FF764F7C2E7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9510C93E-4FCE-4A3B-BA54-FF764F7C2E7E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9832C0F3-2255-4D01-83B1-C9AD1FD55CCD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9832C0F3-2255-4D01-83B1-C9AD1FD55CCD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9832C0F3-2255-4D01-83B1-C9AD1FD55CCD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9832C0F3-2255-4D01-83B1-C9AD1FD55CCD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

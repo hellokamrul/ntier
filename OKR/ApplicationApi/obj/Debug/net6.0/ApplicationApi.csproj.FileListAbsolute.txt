@@ -4,9 +4,6 @@ G:\N-Tier_OKR\OKR\ApplicationApi\obj\Debug\net6.0\ApplicationApi.AssemblyInfoInp
 G:\N-Tier_OKR\OKR\ApplicationApi\obj\Debug\net6.0\ApplicationApi.AssemblyInfo.cs
 G:\N-Tier_OKR\OKR\ApplicationApi\obj\Debug\net6.0\ApplicationApi.csproj.CoreCompileInputs.cache
 G:\N-Tier_OKR\OKR\ApplicationApi\obj\Debug\net6.0\ApplicationApi.MvcApplicationPartsAssemblyInfo.cache
-G:\N-Tier_OKR\OKR\ApplicationApi\bin\Debug\net6.0\DAL.deps.json
-G:\N-Tier_OKR\OKR\ApplicationApi\bin\Debug\net6.0\DAL.runtimeconfig.json
-G:\N-Tier_OKR\OKR\ApplicationApi\bin\Debug\net6.0\DAL.exe
 G:\N-Tier_OKR\OKR\ApplicationApi\bin\Debug\net6.0\appsettings.Development.json
 G:\N-Tier_OKR\OKR\ApplicationApi\bin\Debug\net6.0\appsettings.json
 G:\N-Tier_OKR\OKR\ApplicationApi\bin\Debug\net6.0\ApplicationApi.exe

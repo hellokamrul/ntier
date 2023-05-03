@@ -10,7 +10,7 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 
 #nullable disable
 
-namespace DAL_test.Migrations
+namespace DAL.Migrations
 {
     [DbContext(typeof(OkrDbContext))]
     [Migration("20230503041630_test")]

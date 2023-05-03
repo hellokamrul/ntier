@@ -3,11 +3,6 @@ G:\N-Tier_OKR\OKR\BLL\obj\Debug\net6.0\BLL.GeneratedMSBuildEditorConfig.editorco
 G:\N-Tier_OKR\OKR\BLL\obj\Debug\net6.0\BLL.AssemblyInfoInputs.cache
 G:\N-Tier_OKR\OKR\BLL\obj\Debug\net6.0\BLL.AssemblyInfo.cs
 G:\N-Tier_OKR\OKR\BLL\obj\Debug\net6.0\BLL.csproj.CoreCompileInputs.cache
-G:\N-Tier_OKR\OKR\BLL\bin\Debug\net6.0\DAL.deps.json
-G:\N-Tier_OKR\OKR\BLL\bin\Debug\net6.0\DAL.runtimeconfig.json
-G:\N-Tier_OKR\OKR\BLL\bin\Debug\net6.0\appsettings.Development.json
-G:\N-Tier_OKR\OKR\BLL\bin\Debug\net6.0\appsettings.json
-G:\N-Tier_OKR\OKR\BLL\bin\Debug\net6.0\DAL.exe
 G:\N-Tier_OKR\OKR\BLL\bin\Debug\net6.0\BLL.deps.json
 G:\N-Tier_OKR\OKR\BLL\bin\Debug\net6.0\BLL.dll
 G:\N-Tier_OKR\OKR\BLL\bin\Debug\net6.0\BLL.pdb

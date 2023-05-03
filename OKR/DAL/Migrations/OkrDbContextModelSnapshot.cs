@@ -9,7 +9,7 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 
 #nullable disable
 
-namespace DAL_test.Migrations
+namespace DAL.Migrations
 {
     [DbContext(typeof(OkrDbContext))]
     partial class OkrDbContextModelSnapshot : ModelSnapshot
