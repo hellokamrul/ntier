@@ -17,8 +17,12 @@ namespace ApplicationApi.Controllers
         [HttpGet]
         public IActionResult MyWorks(int id)
         {
-
             return Ok(_temp.GetTodayTaskByUid(id));
+        }
+        [HttpGet]
+        public IActionResult TempList(int id)
+        {
+            return Ok(_temp.GetTemplateList());
         }
     }
 }

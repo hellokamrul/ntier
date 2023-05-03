@@ -10,5 +10,6 @@ namespace DAL.Interfaces
     public interface ITemplate
     {
         List<UserTaskAssign> GetTodayTaskByUid(int uid);  
+        List<Template> GetTemplateList();  
     }
 }

@@ -28,5 +28,16 @@ namespace Okr_MVC.Controllers
             }
             return View(taskList);
         }
+        public IActionResult TempList()
+        {
+            List<Template> taskList = new List<Template>();
+            var response = _client.GetAsync(_client.BaseAddress + "/Template/TempList").Result;
+            if (response.IsSuccessStatusCode)
+            {
+                var data = response.Content.ReadAsStringAsync().Result;
+                taskList = JsonConvert.DeserializeObject<List<Template>>(data);
+            }
+            return View(taskList);
+        }
     }
 }

@@ -1,6 +1,7 @@
 ﻿using DAL.Context;
 using DAL.Interfaces;
 using DAL.Models;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -18,11 +19,18 @@ namespace DAL.Repository
         {
             _context = context;
         }
+
+        public List<Template> GetTemplateList()
+        {
+            return _context.Templates.Include(t => t.Owner).ToList();
+        }
+
         public List<UserTaskAssign> GetTodayTaskByUid(int uid)
         {
             var taskList = _context.UserTaskAssigns.Where(t => t.UserId == uid && t.Tasks.DueDate.Date == DateTime.UtcNow.Date).ToList(); 
             return taskList;
 
         }
+
     }
 }

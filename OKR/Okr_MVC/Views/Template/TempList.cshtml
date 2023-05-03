@@ -1,0 +1,7 @@
+﻿@model List<DAL.Models.Template>;
+
+@foreach (var i in Model)
+{
+    <h1>@i.Name</h1>
+    <h1>@i.Owner.Name</h1>
+}

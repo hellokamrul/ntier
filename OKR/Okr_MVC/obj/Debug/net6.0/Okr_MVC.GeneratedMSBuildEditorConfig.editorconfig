@@ -40,6 +40,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVtcGxhdGVcVGFza0xpc3QuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/GTR/N-tier/OKR/Okr_MVC/Views/Template/TempList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVtcGxhdGVcVGVtcExpc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/GTR/N-tier/OKR/Okr_MVC/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
