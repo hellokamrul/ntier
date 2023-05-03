@@ -347,8 +347,7 @@
         "dependencies": {
           "AutoMapper": "12.0.1",
           "AutoMapper.Extensions.Microsoft.DependencyInjection": "12.0.1",
-          "DAL": "1.0.0",
-          "DAL_test": "1.0.0"
+          "DAL": "1.0.0"
         },
         "runtime": {
           "BLL.dll": {}
@@ -362,15 +361,6 @@
         },
         "runtime": {
           "DAL.dll": {}
-        }
-      },
-      "DAL_test/1.0.0": {
-        "dependencies": {
-          "Microsoft.EntityFrameworkCore": "7.0.5",
-          "Npgsql.EntityFrameworkCore.PostgreSQL": "7.0.4"
-        },
-        "runtime": {
-          "DAL_test.dll": {}
         }
       }
     }
@@ -618,11 +608,6 @@
       "sha512": ""
     },
     "DAL/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "DAL_test/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

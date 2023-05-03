@@ -34,10 +34,8 @@ G:\N-Tier_OKR\OKR\ApplicationApi\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger
 G:\N-Tier_OKR\OKR\ApplicationApi\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
 G:\N-Tier_OKR\OKR\ApplicationApi\bin\Debug\net6.0\BLL.dll
 G:\N-Tier_OKR\OKR\ApplicationApi\bin\Debug\net6.0\DAL.dll
-G:\N-Tier_OKR\OKR\ApplicationApi\bin\Debug\net6.0\DAL_test.dll
 G:\N-Tier_OKR\OKR\ApplicationApi\bin\Debug\net6.0\BLL.pdb
 G:\N-Tier_OKR\OKR\ApplicationApi\bin\Debug\net6.0\DAL.pdb
-G:\N-Tier_OKR\OKR\ApplicationApi\bin\Debug\net6.0\DAL_test.pdb
 G:\N-Tier_OKR\OKR\ApplicationApi\obj\Debug\net6.0\ApplicationApi.MvcApplicationPartsAssemblyInfo.cs
 G:\N-Tier_OKR\OKR\ApplicationApi\obj\Debug\net6.0\staticwebassets\msbuild.ApplicationApi.Microsoft.AspNetCore.StaticWebAssets.props
 G:\N-Tier_OKR\OKR\ApplicationApi\obj\Debug\net6.0\staticwebassets\msbuild.build.ApplicationApi.props
