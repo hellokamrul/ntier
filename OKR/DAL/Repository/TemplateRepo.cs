@@ -1,4 +1,5 @@
 ﻿using DAL.Context;
+using DAL.DTO;
 using DAL.Interfaces;
 using DAL.Models;
 using Microsoft.EntityFrameworkCore;
@@ -18,6 +19,13 @@ namespace DAL.Repository
         public TemplateRepo(OkrDbContext context)
         {
             _context = context;
+        }
+
+        public string CreateTemplate(Template template)
+        {
+           var state = _context.Templates.Add(template).ToString();
+               _context.SaveChanges();
+            return state;   
         }
 
         public List<Template> GetTemplateList()

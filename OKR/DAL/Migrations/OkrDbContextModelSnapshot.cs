@@ -23,7 +23,7 @@ namespace DAL.Migrations
 
             NpgsqlModelBuilderExtensions.UseIdentityByDefaultColumns(modelBuilder);
 
-            modelBuilder.Entity("DAL_test.Models.Company", b =>
+            modelBuilder.Entity("DAL.Models.Company", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -48,7 +48,7 @@ namespace DAL.Migrations
                     b.ToTable("Companies");
                 });
 
-            modelBuilder.Entity("DAL_test.Models.Department", b =>
+            modelBuilder.Entity("DAL.Models.Department", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -70,7 +70,7 @@ namespace DAL.Migrations
                     b.ToTable("Departments");
                 });
 
-            modelBuilder.Entity("DAL_test.Models.ProjTempRelation", b =>
+            modelBuilder.Entity("DAL.Models.ProjTempRelation", b =>
                 {
                     b.Property<int>("PId")
                         .HasColumnType("integer");
@@ -85,7 +85,7 @@ namespace DAL.Migrations
                     b.ToTable("ProjTempRelations");
                 });
 
-            modelBuilder.Entity("DAL_test.Models.Project", b =>
+            modelBuilder.Entity("DAL.Models.Project", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -141,7 +141,7 @@ namespace DAL.Migrations
                     b.ToTable("Projects");
                 });
 
-            modelBuilder.Entity("DAL_test.Models.Tasks", b =>
+            modelBuilder.Entity("DAL.Models.Tasks", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -177,7 +177,7 @@ namespace DAL.Migrations
                     b.ToTable("Tasks");
                 });
 
-            modelBuilder.Entity("DAL_test.Models.Template", b =>
+            modelBuilder.Entity("DAL.Models.Template", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -199,7 +199,7 @@ namespace DAL.Migrations
                     b.ToTable("Templates");
                 });
 
-            modelBuilder.Entity("DAL_test.Models.Understanding", b =>
+            modelBuilder.Entity("DAL.Models.Understanding", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -220,7 +220,7 @@ namespace DAL.Migrations
                     b.ToTable("Understandings");
                 });
 
-            modelBuilder.Entity("DAL_test.Models.User", b =>
+            modelBuilder.Entity("DAL.Models.User", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -262,7 +262,7 @@ namespace DAL.Migrations
                     b.ToTable("Users");
                 });
 
-            modelBuilder.Entity("DAL_test.Models.UserProjectAssign", b =>
+            modelBuilder.Entity("DAL.Models.UserProjectAssign", b =>
                 {
                     b.Property<int>("PId")
                         .HasColumnType("integer");
@@ -277,7 +277,7 @@ namespace DAL.Migrations
                     b.ToTable("UserProjectAssigns");
                 });
 
-            modelBuilder.Entity("DAL_test.Models.UserTaskAssign", b =>
+            modelBuilder.Entity("DAL.Models.UserTaskAssign", b =>
                 {
                     b.Property<int>("TaskId")
                         .HasColumnType("integer");
@@ -292,7 +292,7 @@ namespace DAL.Migrations
                     b.ToTable("UserTaskAssigns");
                 });
 
-            modelBuilder.Entity("DAL_test.Models.UserTempAssign", b =>
+            modelBuilder.Entity("DAL.Models.UserTempAssign", b =>
                 {
                     b.Property<int>("TempId")
                         .HasColumnType("integer");
@@ -307,9 +307,9 @@ namespace DAL.Migrations
                     b.ToTable("UserTempAssigns");
                 });
 
-            modelBuilder.Entity("DAL_test.Models.Department", b =>
+            modelBuilder.Entity("DAL.Models.Department", b =>
                 {
-                    b.HasOne("DAL_test.Models.Company", "Company")
+                    b.HasOne("DAL.Models.Company", "Company")
                         .WithMany()
                         .HasForeignKey("ComId")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -318,15 +318,15 @@ namespace DAL.Migrations
                     b.Navigation("Company");
                 });
 
-            modelBuilder.Entity("DAL_test.Models.ProjTempRelation", b =>
+            modelBuilder.Entity("DAL.Models.ProjTempRelation", b =>
                 {
-                    b.HasOne("DAL_test.Models.Template", "Template")
+                    b.HasOne("DAL.Models.Template", "Template")
                         .WithMany("PTemplates")
                         .HasForeignKey("PId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("DAL_test.Models.Project", "Project")
+                    b.HasOne("DAL.Models.Project", "Project")
                         .WithMany("PTemplates")
                         .HasForeignKey("TempId")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -337,27 +337,27 @@ namespace DAL.Migrations
                     b.Navigation("Template");
                 });
 
-            modelBuilder.Entity("DAL_test.Models.Project", b =>
+            modelBuilder.Entity("DAL.Models.Project", b =>
                 {
-                    b.HasOne("DAL_test.Models.Company", "Company")
+                    b.HasOne("DAL.Models.Company", "Company")
                         .WithMany()
                         .HasForeignKey("ComId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("DAL_test.Models.Department", "Department")
+                    b.HasOne("DAL.Models.Department", "Department")
                         .WithMany()
                         .HasForeignKey("DeptId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("DAL_test.Models.User", "Owner")
+                    b.HasOne("DAL.Models.User", "Owner")
                         .WithMany()
                         .HasForeignKey("OwnerId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("DAL_test.Models.Understanding", "Understanding")
+                    b.HasOne("DAL.Models.Understanding", "Understanding")
                         .WithMany()
                         .HasForeignKey("UndId")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -372,15 +372,15 @@ namespace DAL.Migrations
                     b.Navigation("Understanding");
                 });
 
-            modelBuilder.Entity("DAL_test.Models.Tasks", b =>
+            modelBuilder.Entity("DAL.Models.Tasks", b =>
                 {
-                    b.HasOne("DAL_test.Models.Project", "Project")
+                    b.HasOne("DAL.Models.Project", "Project")
                         .WithMany()
                         .HasForeignKey("PId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("DAL_test.Models.Template", "Template")
+                    b.HasOne("DAL.Models.Template", "Template")
                         .WithMany("Tasks")
                         .HasForeignKey("TempId")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -391,9 +391,9 @@ namespace DAL.Migrations
                     b.Navigation("Template");
                 });
 
-            modelBuilder.Entity("DAL_test.Models.Template", b =>
+            modelBuilder.Entity("DAL.Models.Template", b =>
                 {
-                    b.HasOne("DAL_test.Models.User", "Owner")
+                    b.HasOne("DAL.Models.User", "Owner")
                         .WithMany()
                         .HasForeignKey("OwnerId")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -402,15 +402,15 @@ namespace DAL.Migrations
                     b.Navigation("Owner");
                 });
 
-            modelBuilder.Entity("DAL_test.Models.User", b =>
+            modelBuilder.Entity("DAL.Models.User", b =>
                 {
-                    b.HasOne("DAL_test.Models.Company", "Company")
+                    b.HasOne("DAL.Models.Company", "Company")
                         .WithMany()
                         .HasForeignKey("ComId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("DAL_test.Models.Department", "Department")
+                    b.HasOne("DAL.Models.Department", "Department")
                         .WithMany()
                         .HasForeignKey("DeptId")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -421,15 +421,15 @@ namespace DAL.Migrations
                     b.Navigation("Department");
                 });
 
-            modelBuilder.Entity("DAL_test.Models.UserProjectAssign", b =>
+            modelBuilder.Entity("DAL.Models.UserProjectAssign", b =>
                 {
-                    b.HasOne("DAL_test.Models.User", "User")
+                    b.HasOne("DAL.Models.User", "User")
                         .WithMany("UserProjects")
                         .HasForeignKey("PId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("DAL_test.Models.Project", "Project")
+                    b.HasOne("DAL.Models.Project", "Project")
                         .WithMany("UserProjects")
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -440,15 +440,15 @@ namespace DAL.Migrations
                     b.Navigation("User");
                 });
 
-            modelBuilder.Entity("DAL_test.Models.UserTaskAssign", b =>
+            modelBuilder.Entity("DAL.Models.UserTaskAssign", b =>
                 {
-                    b.HasOne("DAL_test.Models.User", "User")
+                    b.HasOne("DAL.Models.User", "User")
                         .WithMany("UserTasks")
                         .HasForeignKey("TaskId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("DAL_test.Models.Tasks", "Tasks")
+                    b.HasOne("DAL.Models.Tasks", "Tasks")
                         .WithMany("UserTasks")
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -459,15 +459,15 @@ namespace DAL.Migrations
                     b.Navigation("User");
                 });
 
-            modelBuilder.Entity("DAL_test.Models.UserTempAssign", b =>
+            modelBuilder.Entity("DAL.Models.UserTempAssign", b =>
                 {
-                    b.HasOne("DAL_test.Models.Template", "Template")
+                    b.HasOne("DAL.Models.Template", "Template")
                         .WithMany("UserTemps")
                         .HasForeignKey("TempId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("DAL_test.Models.User", "User")
+                    b.HasOne("DAL.Models.User", "User")
                         .WithMany("UserTemps")
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -478,19 +478,19 @@ namespace DAL.Migrations
                     b.Navigation("User");
                 });
 
-            modelBuilder.Entity("DAL_test.Models.Project", b =>
+            modelBuilder.Entity("DAL.Models.Project", b =>
                 {
                     b.Navigation("PTemplates");
 
                     b.Navigation("UserProjects");
                 });
 
-            modelBuilder.Entity("DAL_test.Models.Tasks", b =>
+            modelBuilder.Entity("DAL.Models.Tasks", b =>
                 {
                     b.Navigation("UserTasks");
                 });
 
-            modelBuilder.Entity("DAL_test.Models.Template", b =>
+            modelBuilder.Entity("DAL.Models.Template", b =>
                 {
                     b.Navigation("PTemplates");
 
@@ -499,7 +499,7 @@ namespace DAL.Migrations
                     b.Navigation("UserTemps");
                 });
 
-            modelBuilder.Entity("DAL_test.Models.User", b =>
+            modelBuilder.Entity("DAL.Models.User", b =>
                 {
                     b.Navigation("UserProjects");
 

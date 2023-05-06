@@ -1,3 +1,4 @@
+using BLL.Services;
 using DAL.Context;
 using DAL.Interfaces;
 using DAL.Repository;
@@ -9,6 +10,7 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddDbContext<OkrDbContext>(options => options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection")));
 
 builder.Services.AddTransient<ITemplate,TemplateRepo>();
+//builder.Services.AddTransient<OkrServices>();
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();

@@ -1,4 +1,5 @@
-﻿using DAL.Models;
+﻿using DAL.DTO;
+using DAL.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -11,5 +12,6 @@ namespace DAL.Interfaces
     {
         List<UserTaskAssign> GetTodayTaskByUid(int uid);  
         List<Template> GetTemplateList();  
+        string CreateTemplate(Template template);
     }
 }
