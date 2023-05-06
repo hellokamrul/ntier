@@ -1,10 +1,14 @@
 ﻿using DAL.Models;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.DependencyInjection;
+using System.Configuration;
 
 namespace DAL.Context
 {
     public class OkrDbContext : DbContext
     {
+       
+
         public OkrDbContext(DbContextOptions options) :base(options)
         {
             

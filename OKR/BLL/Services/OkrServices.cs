@@ -1,44 +1,50 @@
 ﻿using AutoMapper;
-using BLL.Helper;
-using DAL.DTO;
+using BLL.DTOs;
 using DAL.Models;
-using DAL.Repository;
-using Microsoft.EntityFrameworkCore;
+using DAL;
+using Microsoft.Extensions.Configuration;
 
-namespace BLL.Services
+public class OkrServices
 {
-    public class OkrServices : MappingProfiles
+    private readonly IMapper _mapper;
+    private readonly IConfiguration _config;
+
+    public OkrServices(IMapper mapper, IConfiguration config)
     {
-        private readonly IMapper _mapper;
-        private readonly TemplateRepo _templateRepo;
-        public OkrServices(IMapper mapper,TemplateRepo repo)
-        {
-            _mapper = mapper;
-            _templateRepo = repo;        
-        }
-        public string CreateTemp(TemplateDTO templateDTO)
-        {
-
-            Template template = _mapper.Map<Template>(templateDTO);
-
-            return _templateRepo.CreateTemplate(template).ToString();
-
-            //var state = _context.SaveChanges();
-            //if (state > 0)
-            //{
-            //    return "Successful";
-            //}
-            //return "Failed";
-
-            //var config = new MapperConfiguration(cfg => {
-            //    cfg.CreateMap<TemplateDTO, Template>();
-            //    cfg.CreateMap<Template, TemplateDTO>();
-            //});
-            //var mapper = new Mapper(config);
-            //var dbtemp = mapper.Map<TemplateDTO>(templateDTO);
-            //var rt = _templateRepo.CreateTemplate(dbtemp).ToString();
-            //return rt;
-
-        }
+        _mapper = mapper;
+        _config = config;
     }
+
+    public string Add(TemplateDTO temp)
+    {
+        try
+        {
+            var config = new MapperConfiguration(cfg =>
+            {
+                cfg.CreateMap<TemplateDTO, Template>();
+                cfg.CreateMap<Template, TemplateDTO>();
+            });
+            var mapper = new Mapper(config);
+            var dbtemp = mapper.Map<Template>(temp);
+            var factory = new DataAccessFactory(_config);
+            var rt = factory.TemplateDataAccess().Add(dbtemp);
+
+            return rt.ToString();
+        }
+        catch (Exception ex)
+        {
+            // Log the exception details here
+            Console.WriteLine($"Error adding template: {ex.Message}");
+            throw;
+        }
+
+    }
+
+
+    //public string CreateTemp(TemplateDTO templateDTO)
+    //{
+    //    var template = _mapper.Map<Template>(templateDTO);
+    //    var rt = DataAccessFactory.TemplateDataAccess(_config).Add(template);
+    //    return rt.ToString();
+    //}
 }

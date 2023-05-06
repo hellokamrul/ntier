@@ -23,9 +23,9 @@ namespace DAL.Repository
 
         public string CreateTemplate(Template template)
         {
-           var state = _context.Templates.Add(template).ToString();
-               _context.SaveChanges();
-            return state;   
+            _context.Templates.Add(template);
+               
+            return _context.SaveChanges().ToString();
         }
 
         public List<Template> GetTemplateList()
