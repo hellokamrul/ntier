@@ -2,7 +2,7 @@
 
 namespace DAL.DTO
 {
-    public class TemplateDTOs
+    public class TemplateDTO
     {
         public int Id { get; set; }
         public string Name { get; set; }

@@ -615,6 +615,19 @@
           }
         }
       },
+      "PostSharp.Redist/2023.0.4": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/PostSharp.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/PostSharp.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "runtime.native.System.Data.SqlClient.sni/4.7.0": {
         "type": "package",
         "dependencies": {
@@ -1005,6 +1018,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
+          "AutoMapper": "12.0.1",
           "EntityFramework": "6.4.4",
           "Microsoft.EntityFrameworkCore": "7.0.5",
           "Microsoft.Extensions.Configuration.Json": "7.0.0",
@@ -1952,6 +1966,33 @@
         "postgresql.png"
       ]
     },
+    "PostSharp.Redist/2023.0.4": {
+      "sha512": "nzDjHEWjngLfqnz+jLD+VMYtvuJ/eMGpNvyZ13s8Yeo+zyWNKTcTu0ffz4sjEvlsfkivELE/HPj3yPsiU8KpbQ==",
+      "type": "package",
+      "path": "postsharp.redist/2023.0.4",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.md",
+        "icon.png",
+        "lib/net35-client/PostSharp.dll",
+        "lib/net35-client/PostSharp.xml",
+        "lib/net45/PostSharp.dll",
+        "lib/net45/PostSharp.xml",
+        "lib/net5.0/PostSharp.dll",
+        "lib/net5.0/PostSharp.xml",
+        "lib/net6.0/PostSharp.dll",
+        "lib/net6.0/PostSharp.xml",
+        "lib/net7.0/PostSharp.dll",
+        "lib/net7.0/PostSharp.xml",
+        "lib/netstandard1.3/PostSharp.dll",
+        "lib/netstandard1.3/PostSharp.xml",
+        "lib/netstandard2.0/PostSharp.dll",
+        "lib/netstandard2.0/PostSharp.xml",
+        "postsharp.redist.2023.0.4.nupkg.sha512",
+        "postsharp.redist.nuspec"
+      ]
+    },
     "runtime.native.System.Data.SqlClient.sni/4.7.0": {
       "sha512": "9kyFSIdN3T0qjDQ2R0HRXYIhS3l5psBzQi6qqhdLz+SzFyEy4sVxNOke+yyYv8Cu8rPER12c3RDjLT8wF3WBYQ==",
       "type": "package",
@@ -2673,42 +2714,39 @@
       "Microsoft.EntityFrameworkCore.Design >= 7.0.5",
       "Microsoft.EntityFrameworkCore.Tools >= 7.0.5",
       "Npgsql.EntityFrameworkCore.PostgreSQL >= 7.0.4",
+      "PostSharp.Redist >= 2023.0.4",
       "Swashbuckle.AspNetCore >= 6.2.3"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\User\\.nuget\\packages\\": {}
+    "C:\\Users\\SHAFIN\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\GTR-OKR\\ntier\\OKR\\ApplicationApi\\ApplicationApi.csproj",
+      "projectUniqueName": "G:\\GTR-OKR\\ntier\\OKR\\ApplicationApi\\ApplicationApi.csproj",
       "projectName": "ApplicationApi",
-      "projectPath": "D:\\GTR-OKR\\ntier\\OKR\\ApplicationApi\\ApplicationApi.csproj",
-      "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "D:\\GTR-OKR\\ntier\\OKR\\ApplicationApi\\obj\\",
+      "projectPath": "G:\\GTR-OKR\\ntier\\OKR\\ApplicationApi\\ApplicationApi.csproj",
+      "packagesPath": "C:\\Users\\SHAFIN\\.nuget\\packages\\",
+      "outputPath": "G:\\GTR-OKR\\ntier\\OKR\\ApplicationApi\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\SHAFIN\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs": {},
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages": {},
-        "C:\\Program Files\\dotnet": {},
-        "C:\\Program Files\\dotnet\\sdk\\7.0.200\\Sdks": {},
-        "C:\\Users\\User\\AppData\\Local\\Temp\\NuGetScratch": {},
-        "https://www.nuget.org/api/v2/curated-feeds/microsoftdotnet/": {}
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "D:\\GTR-OKR\\ntier\\OKR\\BLL\\BLL.csproj": {
-              "projectPath": "D:\\GTR-OKR\\ntier\\OKR\\BLL\\BLL.csproj"
+            "G:\\GTR-OKR\\ntier\\OKR\\BLL\\BLL.csproj": {
+              "projectPath": "G:\\GTR-OKR\\ntier\\OKR\\BLL\\BLL.csproj"
             }
           }
         }
@@ -2743,6 +2781,10 @@
             "target": "Package",
             "version": "[7.0.4, )"
           },
+          "PostSharp.Redist": {
+            "target": "Package",
+            "version": "[2023.0.4, )"
+          },
           "Swashbuckle.AspNetCore": {
             "target": "Package",
             "version": "[6.2.3, )"
@@ -2767,7 +2809,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
       }
     }
   }

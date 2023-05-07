@@ -10,5 +10,6 @@ namespace DAL.DTO
         public DateTime CreatedDate { get; set; }
         public DateTime DueDate { get; set; }
         public DateTime EstimatedDate { get; set; }
+        public int TempId { get; set; }
     }
 }

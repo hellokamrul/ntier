@@ -7,7 +7,9 @@ namespace DAL.Context
 {
     public class OkrDbContext : DbContext
     {
-       
+        public OkrDbContext()
+        {
+        }
 
         public OkrDbContext(DbContextOptions options) :base(options)
         {

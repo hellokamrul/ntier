@@ -11,18 +11,23 @@ using System.Threading.Tasks;
 
 namespace DAL.Repository
 {
-    public class TempRepo : IRepo<Template, int, string>
+    internal class TempRepo : IRepo<Template, int, string>
     {
         private readonly OkrDbContext _context;
-
-        public TempRepo(OkrDbContext context)
+        public TempRepo()
         {
-            _context = context;
+            _context = new OkrDbContext();
         }
+       
+
+        //public TempRepo(OkrDbContext context)
+        //{
+        //    _context = context;
+        //}
 
         //public TempRepo()
         //{
-        //    context = new  OkrDbContext();    
+        //    _context = new OkrDbContext();
         //}
         public string Add(Template obj)
         {

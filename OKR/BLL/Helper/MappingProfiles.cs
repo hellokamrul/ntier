@@ -1,5 +1,5 @@
 ﻿using AutoMapper;
-using BLL.DTOs;
+using DAL.DTO;
 using DAL.Models;
 
 namespace BLL.Helper
@@ -11,7 +11,7 @@ namespace BLL.Helper
             //CreateMap<DepartmentDTO, Department>();
             //CreateMap<CompanyDTO, Company > ();
             //CreateMap<UserDTO, User > ();
-            CreateMap<Template, TemplateDTO> ();
+            CreateMap<TemplateDTO, Template> ();
             //CreateMap<TasksDTO, Tasks> ();
             //CreateMap<ProjectDTO, Project> ();
         }

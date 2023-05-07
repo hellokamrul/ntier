@@ -10,20 +10,26 @@ namespace DAL
 {
     public class DataAccessFactory
     {
-        private readonly IConfiguration _configuration;
-        private readonly DbContextOptions<OkrDbContext> _options;
 
-        public DataAccessFactory(IConfiguration configuration)
-        {
-            _configuration = configuration;
-            _options = new DbContextOptionsBuilder<OkrDbContext>()
-                .UseNpgsql(_configuration.GetConnectionString("DefaultConnection"))
-                .Options;
-        }
+        //private readonly IConfiguration _configuration;
+        //private readonly DbContextOptions<OkrDbContext> _options;
+
+        //public DataAccessFactory(IConfiguration configuration)
+        //{
+        //    _configuration = configuration;
+        //    _options = new DbContextOptionsBuilder<OkrDbContext>()
+        //        .UseNpgsql(_configuration.GetConnectionString("DefaultConnection"))
+        //        .Options;
+        //}
+
+        //public IRepo<Template, int, string> TemplateDataAccess()
+        //{
+        //    return new TempRepo(new OkrDbContext(_options));
+        //}
 
         public IRepo<Template, int, string> TemplateDataAccess()
         {
-            return new TempRepo(new OkrDbContext(_options));
+            return new TempRepo();
         }
 
     }

@@ -12,7 +12,8 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container
 builder.Services.AddDbContext<OkrDbContext>(options => options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection")));
 builder.Services.AddTransient<ITemplate, TemplateRepo>();
-builder.Services.AddScoped<OkrServices>();
+builder.Services.AddTransient<IProject, ProjectRepo>();
+//builder.Services.AddScoped<OkrServices>();
 builder.Services.AddAutoMapper(typeof(Program));
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
