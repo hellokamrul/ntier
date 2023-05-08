@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\GTR\\N-tier\\OKR\\ApplicationApi\\ApplicationApi.csproj": {}
+    "G:\\GTR-OKR\\ntier\\OKR\\ApplicationApi\\ApplicationApi.csproj": {}
   },
   "projects": {
-    "D:\\GTR\\N-tier\\OKR\\ApplicationApi\\ApplicationApi.csproj": {
+    "G:\\GTR-OKR\\ntier\\OKR\\ApplicationApi\\ApplicationApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\GTR\\N-tier\\OKR\\ApplicationApi\\ApplicationApi.csproj",
+        "projectUniqueName": "G:\\GTR-OKR\\ntier\\OKR\\ApplicationApi\\ApplicationApi.csproj",
         "projectName": "ApplicationApi",
-        "projectPath": "D:\\GTR\\N-tier\\OKR\\ApplicationApi\\ApplicationApi.csproj",
-        "packagesPath": "C:\\Users\\Elite-Gadget\\.nuget\\packages\\",
-        "outputPath": "D:\\GTR\\N-tier\\OKR\\ApplicationApi\\obj\\",
+        "projectPath": "G:\\GTR-OKR\\ntier\\OKR\\ApplicationApi\\ApplicationApi.csproj",
+        "packagesPath": "C:\\Users\\SHAFIN\\.nuget\\packages\\",
+        "outputPath": "G:\\GTR-OKR\\ntier\\OKR\\ApplicationApi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Elite-Gadget\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\SHAFIN\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -28,8 +28,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\GTR\\N-tier\\OKR\\BLL\\BLL.csproj": {
-                "projectPath": "D:\\GTR\\N-tier\\OKR\\BLL\\BLL.csproj"
+              "G:\\GTR-OKR\\ntier\\OKR\\BLL\\BLL.csproj": {
+                "projectPath": "G:\\GTR-OKR\\ntier\\OKR\\BLL\\BLL.csproj"
               }
             }
           }
@@ -64,6 +64,10 @@
               "target": "Package",
               "version": "[7.0.4, )"
             },
+            "PostSharp.Redist": {
+              "target": "Package",
+              "version": "[2023.0.4, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.2.3, )"
@@ -88,21 +92,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\GTR\\N-tier\\OKR\\BLL\\BLL.csproj": {
+    "G:\\GTR-OKR\\ntier\\OKR\\BLL\\BLL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\GTR\\N-tier\\OKR\\BLL\\BLL.csproj",
+        "projectUniqueName": "G:\\GTR-OKR\\ntier\\OKR\\BLL\\BLL.csproj",
         "projectName": "BLL",
-        "projectPath": "D:\\GTR\\N-tier\\OKR\\BLL\\BLL.csproj",
-        "packagesPath": "C:\\Users\\Elite-Gadget\\.nuget\\packages\\",
-        "outputPath": "D:\\GTR\\N-tier\\OKR\\BLL\\obj\\",
+        "projectPath": "G:\\GTR-OKR\\ntier\\OKR\\BLL\\BLL.csproj",
+        "packagesPath": "C:\\Users\\SHAFIN\\.nuget\\packages\\",
+        "outputPath": "G:\\GTR-OKR\\ntier\\OKR\\BLL\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Elite-Gadget\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\SHAFIN\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -116,8 +120,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\GTR\\N-tier\\OKR\\DAL\\DAL.csproj": {
-                "projectPath": "D:\\GTR\\N-tier\\OKR\\DAL\\DAL.csproj"
+              "G:\\GTR-OKR\\ntier\\OKR\\DAL\\DAL.csproj": {
+                "projectPath": "G:\\GTR-OKR\\ntier\\OKR\\DAL\\DAL.csproj"
               }
             }
           }
@@ -157,21 +161,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\GTR\\N-tier\\OKR\\DAL\\DAL.csproj": {
+    "G:\\GTR-OKR\\ntier\\OKR\\DAL\\DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\GTR\\N-tier\\OKR\\DAL\\DAL.csproj",
+        "projectUniqueName": "G:\\GTR-OKR\\ntier\\OKR\\DAL\\DAL.csproj",
         "projectName": "DAL",
-        "projectPath": "D:\\GTR\\N-tier\\OKR\\DAL\\DAL.csproj",
-        "packagesPath": "C:\\Users\\Elite-Gadget\\.nuget\\packages\\",
-        "outputPath": "D:\\GTR\\N-tier\\OKR\\DAL\\obj\\",
+        "projectPath": "G:\\GTR-OKR\\ntier\\OKR\\DAL\\DAL.csproj",
+        "packagesPath": "C:\\Users\\SHAFIN\\.nuget\\packages\\",
+        "outputPath": "G:\\GTR-OKR\\ntier\\OKR\\DAL\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Elite-Gadget\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\SHAFIN\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -197,6 +201,14 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "EntityFramework": {
+              "target": "Package",
+              "version": "[6.4.4, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[7.0.5, )"
@@ -213,9 +225,17 @@
               "target": "Package",
               "version": "[7.0.5, )"
             },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
             "Npgsql.EntityFrameworkCore.PostgreSQL": {
               "target": "Package",
               "version": "[7.0.4, )"
+            },
+            "System.Configuration.ConfigurationManager": {
+              "target": "Package",
+              "version": "[6.0.0, )"
             }
           },
           "imports": [
@@ -234,7 +254,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     }

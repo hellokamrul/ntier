@@ -6,7 +6,7 @@ namespace DAL.Models
     public class User
     {
         public int Id { get; set; }
-        public int UserId { get; set; }
+        public int UserId { get; set; }/// best on chitra pnale
         public string Name { get; set; }
         [EmailAddress]
         public string Email { get; set; }
